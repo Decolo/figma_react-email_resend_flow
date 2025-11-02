@@ -5,18 +5,23 @@
   "scripts": {
     "build": "email build",
     "dev": "email dev",
-    "export": "email export"
+    "export": "email export",
+    "send-email": "tsx examples/send-email.ts"
   },
   "dependencies": {
     "@react-email/components": "0.5.7",
+    "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react": "^19.0.0"
+    "resend": "^6.4.0"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.68.0",
     "@react-email/preview-server": "4.3.2",
+    "@types/node": "^24.9.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
-    "react-email": "4.3.2"
+    "dotenv": "^16.4.7",
+    "react-email": "4.3.2",
+    "tsx": "^4.20.6"
   }
 }
